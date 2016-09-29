@@ -6,7 +6,7 @@ class app {
     catalina_home => '/opt/tomcat',
   }
   tomcat::war { 'sample.war':
-    catalina_base => '/opt/tomcat8/first',
+    catalina_base => '/opt/tomcat',
     war_source    => 'http://mirrors.jenkins-ci.org/war/latest/jenkins.war',
   }
 }
